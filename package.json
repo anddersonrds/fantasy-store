@@ -29,6 +29,7 @@
     "concurrently": "^5.1.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "history": "^5.0.0",
     "ts-node": "^8.9.0"
   },
   "scripts": {
@@ -37,7 +38,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:server": "ts-node -O '{\"module\": \"commonjs\"}' ./server/index.ts",
-    "dev": "concurrently --kill-others \"npm run start:server\" \"npm run start\""
+    "dev": "concurrently --kill-others \"yarn start:server\" \"yarn start\""
   },
   "eslintConfig": {
     "extends": "react-app"
