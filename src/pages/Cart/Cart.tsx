@@ -3,9 +3,19 @@ import { Link } from "react-router-dom"
 
 import { useCart } from "../../shared/hooks/CartContext"
 import { CartItem } from "../../shared/components/CartItem"
+import { Product } from "../../shared/types"
 
-export const Cart = () => {
-  const { products, removeFromCart, totalPrice } = useCart()
+interface CartProps {
+  useCartHook?: () => {
+    products: Product[],
+    removeFromCart: (product: Product) => void,
+    totalPrice: () => number
+  }
+}
+
+export const Cart = ({ useCartHook = useCart }: CartProps) => {
+  const { products, removeFromCart, totalPrice } = useCartHook()
+
   if (!products.length) {
     return <>Your cart is empty. <Link to="/">Back to main page.</Link></>
   }
@@ -13,12 +23,18 @@ export const Cart = () => {
   return (
     <section className="nes-container with-title is-centered">
       <h3 className="title">Cart Summary</h3>
+
       <div className="cart-items">
         {products.map((datum) => (
-          <CartItem key={datum.name} product={datum} removeFromCart={removeFromCart} />
+          <CartItem
+            key={datum.name}
+            product={datum}
+            removeFromCart={removeFromCart}
+          />
         ))}
         <p>Total: {totalPrice()} Zm</p>
       </div>
+
       <div>
         <Link to="/checkout">
           <button className="nes-btn is-primary">Go to checkout</button>
