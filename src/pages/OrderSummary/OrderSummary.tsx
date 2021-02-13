@@ -1,50 +1,32 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "react-router-dom"
 
 import { Loader } from "../../shared/components/Loader"
-import { Product } from "../../shared/types"
-import { getOrder } from "../../shared/utils/api"
+import { useOrder } from '../../shared/hooks/useOrder'
 
-export interface Order {
-  products: Product[]
+interface OrderSummaryProps {
+  useOrderHook?: typeof useOrder
 }
 
-const getOrderId = () => {
-  const urlParams = new URLSearchParams(window.location.search)
-  return urlParams.get("orderId")
-}
+export const OrderSummary = ({ useOrderHook = useOrder }:OrderSummaryProps) => {
+  const {isLoading, order} = useOrderHook()
 
-export const OrderSummary = () => {
-  const [order, setOrder] = useState<Order>()
+  if (isLoading) return <Loader />
 
-  React.useEffect(() => {
-    const fetchData = async () => {
-      const orderId = getOrderId()
-      if (!orderId) {
-        return
-      }
-      const order = await getOrder(orderId)
-      if (order.success) {
-        setOrder(order)
-      }
-    }
-    fetchData()
-  }, [])
-
-  if (!order) {
-    return <Loader />
-  }
+  if (!order) return <div>Couldn't load order info.</div>
 
   return (
     <section className="nes-container with-title">
       <h1 className="title">Order Summary</h1>
+
       <div className="nes-container is-rounded order-summary-container">
         <ul className="nes-list is-circle">
-          {order.products.map((product) => {
-            return <li key={product.name}>{product.name}</li>
-          })}
+          {order.products.map(product => (
+            <li key={product.name}>{product.name}</li>
+          ))}
         </ul>
       </div>
+
       <Link to="/">
         <button className="nes-btn is-primary">Back to the store</button>
       </Link>

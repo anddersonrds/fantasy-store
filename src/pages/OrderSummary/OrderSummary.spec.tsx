@@ -1,15 +1,71 @@
 import React from 'react'
+import { render, fireEvent } from '@testing-library/react'
+
+import { OrderSummary } from './OrderSummary'
+import { Loader } from '../../shared/components/Loader'
+
+jest.mock('../../shared/components/Loader', () => ({
+  Loader: jest.fn(() => null)
+}))
 
 describe("OrderSummary", () => {
+  afterEach(jest.clearAllMocks)
+
   describe("while order data being loaded", () => {
-    it.todo("renders loader")
-  }) 
+    it("renders loader", () => {
+      const stubUseOrder = () => ({
+        isLoading: true,
+        order: undefined
+      })
+
+      render(<OrderSummary useOrderHook={stubUseOrder} />)
+      expect(Loader).toHaveBeenCalled()
+    })
+  })
 
   describe("when order is loaded", () => {
-    it.todo("renders order info")
-  }) 
+    const stubUseOrder = () => ({
+      isLoading: false,
+      order: {
+        products: [
+          {
+            name: "Diamond Sword",
+            price: 1000,
+            image: "image.png"
+          }
+        ]
+      }
+    })
 
-  describe("with error", () => {
-    it.todo("renders error info")
-  }) 
+    it("renders order info", () => {
+      const { container } = renderWithRouter(() => (
+        <OrderSummary useOrderHook={stubUseOrder} />
+      ))
+
+      expect(container.innerHTML).toMatch("Diamond Sword")
+    })
+
+    it("navigates to main page on button click", () => {
+      const { getByText, history } = renderWithRouter(() => (
+        <OrderSummary useOrderHook={stubUseOrder} />
+      ))
+
+      fireEvent.click(getByText("Back to the store"))
+
+      expect(history.location.pathname).toEqual('/')
+    })
+  })
+
+  describe("without order", () => {
+    it("renders error message", () => {
+      const stubUseOrder = () => ({
+        isLoading: false,
+        order: undefined
+      })
+
+      const { container } = render(<OrderSummary useOrderHook={stubUseOrder} />)
+
+      expect(container.innerHTML).toMatch("Couldn't load order info.")
+    })
+  })
 })
