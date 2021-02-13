@@ -1,54 +1,174 @@
-  {"categories": [
+  {
+    "categories": [
     {
       "name": "Weapons",
       "items": [
         {
-          "name": "Rusty Sword",
-          "description": "Simple sword description.",
-          "image": "/images/rusty_sword.png",
-          "price": "5"
-        },
-        {
           "name": "Broad Sword",
           "description": "Simple sword description.",
-          "image": "/images/broad_sword.png",
-          "price": "25"
+          "image": "/images/weapons/swords/broad-sword.png",
+          "price": "350"
         },
         {
-          "name": "Katana",
+          "name": "Long Sword",
           "description": "Simple sword description.",
-          "image": "/images/katana.png",
-          "price": "50"
+          "image": "/images/weapons/swords/long-sword.png",
+          "price": "500"
         },
         {
-          "name": "Scimitar",
+          "name": "Iron Sword",
           "description": "Simple sword description.",
-          "image": "/images/scimitar.png",
-          "price": "60"
+          "image": "/images/weapons/swords/iron-sword.png",
+          "price": "700"
         },
         {
-          "name": "Sabre",
+          "name": "Rune Blade",
           "description": "Simple sword description.",
-          "image": "/images/sabre.png",
-          "price": "70"
+          "image": "/images/weapons/swords/rune-blade.png",
+          "price": "900"
         },
         {
-          "name": "Divine Sword",
+          "name": "Sleep Blade",
           "description": "Simple sword description.",
-          "image": "/images/divine_sword.png",
-          "price": "250"
+          "image": "/images/weapons/swords/sleep-blade.png",
+          "price": "1200"
         },
         {
-          "name": "Basic Spear",
+          "name": "Platinum Sword",
           "description": "Simple sword description.",
-          "image": "/images/basic_spear.png",
-          "price": "5"
+          "image": "/images/weapons/swords/platinum-sword.png",
+          "price": "1600"
         },
         {
-          "name": "Elven Wand",
+          "name": "Mythril Sword",
           "description": "Simple sword description.",
-          "image": "/images/elven_wand.png",
-          "price": "100"
+          "image": "/images/weapons/swords/mythril-sword.png",
+          "price": "1600"
+        },
+        {
+          "name": "Diamond Sword",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/swords/diamond-sword.png",
+          "price": "2000"
+        },
+        {
+          "name": "Blood Sword",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/swords/blood-sword.png",
+          "price": "1500"
+        },
+        {
+          "name": "Coral Sword",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/swords/coral-sword.png",
+          "price": "1600"
+        },
+        {
+          "name": "Ancient Sword",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/swords/ancient-sword.png",
+          "price": "1800"
+        },
+        {
+          "name": "Icebrand",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/swords/icebrand.png",
+          "price": "1400"
+        },
+        {
+          "name": "Nagnarok",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/swords/nagnarok.png",
+          "price": "2500"
+        },
+        {
+          "name": "Material Blade",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/swords/material-blade.png",
+          "price": "9999"
+        }
+      ]
+    },
+    {
+      "name": "Hemls",
+      "items": [
+        {
+          "name": "Grand Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/grand-helm.png",
+          "price": "3000"
+        },
+        {
+          "name": "Genji Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/genji-helm.png",
+          "price": "2800"
+        },
+        {
+          "name": "Crystal Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/crystal-helm.png",
+          "price": "2400"
+        },
+        {
+          "name": "Circlet",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/circlet.png",
+          "price": "2200"
+        },
+        {
+          "name": "Platinum Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/platinum-helm.png",
+          "price": "2000"
+        },
+        {
+          "name": "Diamond Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/diamond-helm.png",
+          "price": "1800"
+        },
+        {
+          "name": "Close Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/close-helm.png",
+          "price": "1600"
+        },
+        {
+          "name": "Golden Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/golden-helm.png",
+          "price": "1400"
+        },
+        {
+          "name": "Mythril Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/mythril-helm.png",
+          "price": "1200"
+        },
+        {
+          "name": "Barbut",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/barbut.png",
+          "price": "900"
+        },
+        {
+          "name": "Iron Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/iron-helm.png",
+          "price": "700"
+        },
+        {
+          "name": "Bronze Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/bronze-helm.png",
+          "price": "500"
+        },
+        {
+          "name": "Leather Helm",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/helms/leather-helm.png",
+          "price": "350"
         }
       ]
     },
@@ -56,45 +176,179 @@
       "name": "Armor",
       "items": [
         {
-          "name": "Rusty Helmet",
+          "name": "Maximillian",
           "description": "Simple sword description.",
-          "image": "/images/rusty_helmet.png",
-          "price": "7"
+          "image": "/images/body-armor/armor/maximillian.png",
+          "price": "3500"
         },
         {
-          "name": "Plate Armor",
+          "name": "Genji Armor",
           "description": "Simple sword description.",
-          "image": "/images/plate_armor.png",
-          "price": "75"
+          "image": "/images/body-armor/armor/genji-armor.png",
+          "price": "3000"
+        },
+        {
+          "name": "Mirror Mail",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/mirror-mail.png",
+          "price": "2500"
+        },
+        {
+          "name": "Crystal Mail",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/crystal-mail.png",
+          "price": "2300"
+        },
+        {
+          "name": "Caribineer Mail",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/caribineer-mail.png",
+          "price": "2100"
+        },
+        {
+          "name": "Platinum Armor",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/platinum-armor.png",
+          "price": "2000"
+        },
+        {
+          "name": "Diamond Armor",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/diamond-armor.png",
+          "price": "1800"
         },
         {
           "name": "Golden Armor",
           "description": "Simple sword description.",
-          "image": "/images/golden_armor.png",
-          "price": "200"
+          "image": "/images/body-armor/armor/golden-armor.png",
+          "price": "1500"
+        },
+        {
+          "name": "Plate Mail",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/plate-mail.png",
+          "price": "1350"
+        },
+        {
+          "name": "Mythril Armor",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/mythril-armor.png",
+          "price": "1200"
+        },
+        {
+          "name": "Chainmail",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/chainmail.png",
+          "price": "900"
+        },
+        {
+          "name": "Bronze Armor",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/bronze-armor.png",
+          "price": "700"
+        },
+        {
+          "name": "Linen Cuirass",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/linen-cuirass.png",
+          "price": "500"
+        },
+        {
+          "name": "Leather Armor",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/armor/leather-armor.png",
+          "price": "350"
         }
       ]
     },
     {
-      "name": "Potions",
+      "name": "Items",
       "items": [
         {
-          "name": "Ruby Potion",
+          "name": "Elixir",
           "description": "Simple sword description.",
-          "image": "/images/ruby_potion.png",
-          "price": 10
-        }
-      ]
-    },
-    {
-      "name": "Misc",
-      "items": [
+          "image": "/images/items/use/elixir.png",
+          "price": "800"
+        },
         {
-          "name": "Raspberry Pie",
+          "name": "X-Potion",
           "description": "Simple sword description.",
-          "image": "/images/raspberry_pie.png",
-          "price": 1 
+          "image": "/images/items/use/x-potion.png",
+          "price": "150"
+        },
+        {
+          "name": "Hi-Potion",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/hi-potion.png",
+          "price": "70"
+        },
+        {
+          "name": "Potion",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/potion.png",
+          "price": "50"
+        },
+        {
+          "name": "Hi-Ether",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/hi-ether.png",
+          "price": "350"
+        },
+        {
+          "name": "Ether",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/ether.png",
+          "price": "100"
+        },
+        {
+          "name": "Phoenix Down",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/phoenix-down.png",
+          "price": "90"
+        },
+        {
+          "name": "Remedy",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/remedy.png",
+          "price": "70"
+        },
+        {
+          "name": "Holy Water",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/holy-water.png",
+          "price": "70"
+        },
+        {
+          "name": "Gold Needle",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/gold-needle.png",
+          "price": "80"
+        },
+        {
+          "name": "Maiden's Kiss",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/maidens-kiss.png",
+          "price": "70"
+        },
+        {
+          "name": "Antidote",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/antidote.png",
+          "price": "70"
+        },
+        {
+          "name": "Echo Herbs",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/echo-herbs.png",
+          "price": "70"
+        },
+        {
+          "name": "Eye Drops",
+          "description": "Simple sword description.",
+          "image": "/images/items/use/eye-drops.png",
+          "price": "70"
         }
       ]
     }
-  ]}
+  ]
+}
