@@ -1,8 +1,8 @@
 import React from "react"
 
-import { useCart } from "../../shared/hooks/CartContext"
-import { CheckoutList } from "./CheckoutList"
-import { CheckoutForm } from "./CheckoutForm"
+import { useCart } from '../../shared/hooks/CartContext'
+import { CheckoutList } from '../../shared/components/CheckoutList'
+import { CheckoutForm } from '../../shared/components/CheckoutForm'
 
 export const Checkout = () => {
   const { products, totalPrice } = useCart()
