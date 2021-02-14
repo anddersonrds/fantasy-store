@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import { useCart } from "../../shared/hooks/CartContext"
+import { useCart } from "../../shared/hooks/useCart"
 import { CartItem } from "../../shared/components/CartItem"
 import { Product } from "../../shared/types"
 

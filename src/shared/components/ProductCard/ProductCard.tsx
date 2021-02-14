@@ -1,14 +1,14 @@
 import React from "react"
 
-import { useCart } from '../../hooks/CartContext'
+import { useCartContext } from '../../hooks/CartContext'
 import { Product } from '../../types'
 
 export interface ProductCardProps {
   datum: Product
-  useCartHook?: () => Pick<ReturnType<typeof useCart>, "products" | "addToCart">
+  useCartHook?: () => Pick<ReturnType<typeof useCartContext>, "products" | "addToCart">
 }
 
-export const ProductCard = ({ datum, useCartHook = useCart }: ProductCardProps) => {
+export const ProductCard = ({ datum, useCartHook = useCartContext }: ProductCardProps) => {
   const { addToCart, products } = useCartHook()
 
   const isInCart = !!products?.find((product) => datum.name === product.name)

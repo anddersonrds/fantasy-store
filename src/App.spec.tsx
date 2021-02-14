@@ -42,9 +42,9 @@ describe("App", () => {
       expect(container.innerHTML).toMatch("OrderSummary")
     })
 
-    // it("renders 'page not found' message on nonexistent route", () => {
-    //   const { container } = renderWithRouter(() => <App />, "/this-route-does-not-exist")
-    //   expect(container.innerHTML).toMatch("Page Not Found")
-    // })
+    it("renders 'page not found' message on nonexistent route", () => {
+      const { container } = renderWithRouter(() => <App />, "/this-route-does-not-exist")
+      expect(container.innerHTML).toMatch("Page not found")
+    })
   })
 })

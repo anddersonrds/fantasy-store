@@ -1,15 +1,15 @@
 import React from "react"
 
-import { useCart } from '../../shared/hooks/CartContext'
+import { useCartContext } from '../../shared/hooks/CartContext'
 import { CheckoutList } from '../../shared/components/CheckoutList'
 import { CheckoutForm } from '../../shared/components/CheckoutForm'
 import { postCheckout } from '../../shared/utils/api'
 
 interface CheckoutProps {
-  useCartHook?: typeof useCart
+  useCartHook?: typeof useCartContext
 }
 
-export const Checkout = ({ useCartHook = useCart }: CheckoutProps) => {
+export const Checkout = ({ useCartHook = useCartContext }: CheckoutProps) => {
   const { products, totalPrice, clearCart } = useCartHook()
 
   const submitCheckout = async () => {

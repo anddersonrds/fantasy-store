@@ -12,6 +12,7 @@ const Routes: React.FC = () => (
     <Route path="/cart" exact component={Cart} />
     <Route path="/checkout" exact component={Checkout} />
     <Route path="/order" exact component={OrderSummary} />
+    <Route>Page not found</Route>
   </Switch>
 );
 
