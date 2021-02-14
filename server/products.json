@@ -4,6 +4,114 @@
       "name": "Weapons",
       "items": [
         {
+          "name": "Zwill Straightblade",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/zwill-straight-blade.png",
+          "price": "350"
+        },
+        {
+          "name": "Air Knife",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/air-knife.png",
+          "price": "500"
+        },
+        {
+          "name": "Orichalcum Dirk",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/orichalcum-dirk.png",
+          "price": "700"
+        },
+        {
+          "name": "Assassin's Dagger",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/assassins-dagger.png",
+          "price": "900"
+        },
+        {
+          "name": "Main Gauche",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/main-gauche.png",
+          "price": "1200"
+        },
+        {
+          "name": "Platinum Dagger",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/platinum-dagger.png",
+          "price": "1600"
+        },
+        {
+          "name": "Blind Knife",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/blind-knife.png",
+          "price": "1600"
+        },
+        {
+          "name": "Mage Masher",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/mage-masher.png",
+          "price": "2000"
+        },
+        {
+          "name": "Mythril Knife",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/mythril-knife.png",
+          "price": "1500"
+        },
+        {
+          "name": "Dagger",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knives/dagger.png",
+          "price": "1600"
+        },
+        {
+          "name": "Iga Blade",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/ninja-blades/iga-blade.png",
+          "price": "700"
+        },
+        {
+          "name": "Koga Blade",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/ninja-blades/koga-blade.png",
+          "price": "900"
+        },
+        {
+          "name": "Sasuke's Blade",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/ninja-blades/sasukes-blade.png",
+          "price": "1200"
+        },
+        {
+          "name": "Spellbinder",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/ninja-blades/spellbinder.png",
+          "price": "1600"
+        },
+        {
+          "name": "Ninja Longblade",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/ninja-blades/ninja-long-blade.png",
+          "price": "1600"
+        },
+        {
+          "name": "Kodachi",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/ninja-blades/kodachi.png",
+          "price": "2000"
+        },
+        {
+          "name": "Kunai",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/ninja-blades/kunai.png",
+          "price": "1500"
+        },
+        {
+          "name": "Ninja Blade",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/ninja-blades/ninja-blade.png",
+          "price": "1600"
+        },
+        {
           "name": "Broad Sword",
           "description": "Simple sword description.",
           "image": "/images/weapons/swords/broad-sword.png",
@@ -86,6 +194,604 @@
           "description": "Simple sword description.",
           "image": "/images/weapons/swords/material-blade.png",
           "price": "9999"
+        },
+        {
+          "name": "Chaos Blade",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knight-swords/chaos-blade.png",
+          "price": "9999"
+        },
+        {
+          "name": "Ragnarok",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knight-swords/ragnarok.png",
+          "price": "9999"
+        },
+        {
+          "name": "Excalibur",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knight-swords/excalibur.png",
+          "price": "9999"
+        },
+        {
+          "name": "Save the Queen",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knight-swords/save-the-queen.png",
+          "price": "9999"
+        },
+        {
+          "name": "Defender",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/knight-swords/defender.png",
+          "price": "9999"
+        },
+        {
+          "name": "Chirijiraden",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/chirijiraden.png",
+          "price": "900"
+        },
+        {
+          "name": "Masamune",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/masamune.png",
+          "price": "1200"
+        },
+        {
+          "name": "Kiku-ichimoji",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/kiku-ichimoji.png",
+          "price": "1600"
+        },
+        {
+          "name": "Muramasa",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/muramasa.png",
+          "price": "2000"
+        },
+        {
+          "name": "Kiyomori",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/kiyomori.png",
+          "price": "1500"
+        },
+        {
+          "name": "Ama-no-Murakumo",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/ama-no-murakumo.png",
+          "price": "1600"
+        },
+        {
+          "name": "Murasame",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/murasame.png",
+          "price": "1800"
+        },
+        {
+          "name": "Osafune",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/osafune.png",
+          "price": "1400"
+        },
+        {
+          "name": "Kotesu",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/kotesu.png",
+          "price": "2500"
+        },
+        {
+          "name": "Ashura",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/katana/ashura.png",
+          "price": "9999"
+        },
+        {
+          "name": "Slasher",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/axes/slasher.png",
+          "price": "350"
+        },
+        {
+          "name": "Giant's Axe",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/axes/giants-axe.png",
+          "price": "500"
+        },
+        {
+          "name": "Battle Axe",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/axes/battle-axe.png",
+          "price": "700"
+        },
+        {
+          "name": "Dragon Rod",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/rods/dragon-rod.png",
+          "price": "900"
+        },
+        {
+          "name": "Rod of Faith",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/rods/rod-of-faith.png",
+          "price": "1200"
+        },
+        {
+          "name": "Wizard's Rod",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/rods/wizards-rod.png",
+          "price": "1600"
+        },
+        {
+          "name": "Poison Rod",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/rods/poison-rod.png",
+          "price": "1600"
+        },
+        {
+          "name": "Flame Rod",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/rods/flame-rod.png",
+          "price": "2000"
+        },
+        {
+          "name": "Ice Rod",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/rods/ice-rod.png",
+          "price": "1500"
+        },
+        {
+          "name": "Thunder Rod",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/rods/thunder-rod.png",
+          "price": "1600"
+        },
+        {
+          "name": "Rod",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/rods/rod.png",
+          "price": "1800"
+        },
+        {
+          "name": "Staff of the Magi",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/staves/staff-of-the-magi.png",
+          "price": "900"
+        },
+        {
+          "name": "Golden Staff",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/staves/golden-staff.png",
+          "price": "1200"
+        },
+        {
+          "name": "Serpent Staff",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/staves/serpent-staff.png",
+          "price": "1600"
+        },
+        {
+          "name": "Healing Staff",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/staves/healing-staff.png",
+          "price": "1600"
+        },
+        {
+          "name": "Mage's Staff",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/staves/mages-staff.png",
+          "price": "2000"
+        },
+        {
+          "name": "White Staff",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/staves/white-staff.png",
+          "price": "1500"
+        },
+        {
+          "name": "Oak Staff",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/staves/oak-staff.png",
+          "price": "1600"
+        },
+        {
+          "name": "Zeus Mace",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/staves/zeus-mace.png",
+          "price": "9999"
+        },
+        {
+          "name": "Scorpion Tail",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/flails/scorpion-tail.png",
+          "price": "1600"
+        },
+        {
+          "name": "Morning Star",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/flails/morning-star.png",
+          "price": "2000"
+        },
+        {
+          "name": "Flame Mace",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/flails/flame-mace.png",
+          "price": "1500"
+        },
+        {
+          "name": "Iron Flail",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/flails/iron-flail.png",
+          "price": "1600"
+        },
+        {
+          "name": "Romandan Pistol",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/guns/romandan-pistol.png",
+          "price": "1200"
+        },
+        {
+          "name": "Mythril Gun",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/guns/mythril-gun.png",
+          "price": "1600"
+        },
+        {
+          "name": "Stoneshooter",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/guns/stoneshooter.png",
+          "price": "1600"
+        },
+        {
+          "name": "Blaster",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/guns/blaster.png",
+          "price": "9999"
+        },
+        {
+          "name": "Glacial Gun",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/guns/glacial-gun.png",
+          "price": "9999"
+        },
+        {
+          "name": "Blaze Gun",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/guns/blaze-gun.png",
+          "price": "9999"
+        },{
+          "name": "Perseus Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/perseus-bow.png",
+          "price": "350"
+        },
+        {
+          "name": "Yoichi Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/yoichi-bow.png",
+          "price": "500"
+        },
+        {
+          "name": "Artemis Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/artemis-bow.png",
+          "price": "700"
+        },
+        {
+          "name": "Windslash Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/windslash-bow.png",
+          "price": "900"
+        },
+        {
+          "name": "Mythril Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/mythril-bow.png",
+          "price": "1200"
+        },
+        {
+          "name": "Lightning Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/lightning-bow.png",
+          "price": "1600"
+        },
+        {
+          "name": "Ice Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/ice-bow.png",
+          "price": "1600"
+        },
+        {
+          "name": "Silver Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/silver-bow.png",
+          "price": "2000"
+        },
+        {
+          "name": "Long Bow",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bows/long-bow.png",
+          "price": "1500"
+        },
+        {
+          "name": "Faerie Harp",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/instruments/faerie-harp.png",
+          "price": "1600"
+        },
+        {
+          "name": "Bloodstring Harp",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/instruments/bloodstring-harp.png",
+          "price": "1800"
+        },
+        {
+          "name": "Lamia's Harp",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/instruments/lamias-harp.png",
+          "price": "1400"
+        },
+        {
+          "name": "Omnilex",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/books/omnilex.png",
+          "price": "350"
+        },
+        {
+          "name": "Papyrus Codex",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/books/papyrus-codex.png",
+          "price": "500"
+        },
+        {
+          "name": "Bestiary",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/books/bestiary.png",
+          "price": "700"
+        },
+        {
+          "name": "Battle Folio",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/books/battle-folio.png",
+          "price": "900"
+        },
+        {
+          "name": "Spear",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/spears/spear.png",
+          "price": "1200"
+        },
+        {
+          "name": "Mythril Spear",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/spears/mythril-spear.png",
+          "price": "1600"
+        },
+        {
+          "name": "Partisan",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/spears/partisan.png",
+          "price": "1600"
+        },
+        {
+          "name": "Javelin",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/spears/javelin1.png",
+          "price": "2000"
+        },
+        {
+          "name": "Dragon Whisker",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/spears/dragon-whisker.png",
+          "price": "1500"
+        },
+        {
+          "name": "Obelisk",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/spears/obelisk.png",
+          "price": "1600"
+        },
+        {
+          "name": "Holy Lance",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/spears/holy-lance.png",
+          "price": "1800"
+        },
+        {
+          "name": "Javelin",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/spears/javelin2.png",
+          "price": "9999"
+        },
+        {
+          "name": "Whale Whisker",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/poles/whale-whisker.png",
+          "price": "350"
+        },
+        {
+          "name": "Eight-fluted Pole",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/poles/eight-fluted-pole.png",
+          "price": "500"
+        },
+        {
+          "name": "Ivory Pole",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/poles/ivory-pole.png",
+          "price": "700"
+        },
+        {
+          "name": "Gokuu Pole",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/poles/gokuu-pole.png",
+          "price": "900"
+        },
+        {
+          "name": "Iron Fan",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/poles/iron-fan.png",
+          "price": "1200"
+        },
+        {
+          "name": "Musk Pole",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/poles/musk-pole.png",
+          "price": "1600"
+        },
+        {
+          "name": "Battle Bamboo",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/poles/battle-bamboo.png",
+          "price": "1600"
+        },
+        {
+          "name": "Cypress Pole",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/poles/cypress-pole.png",
+          "price": "2000"
+        },
+        {
+          "name": "Fallingstar Bag",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bags/fallingstar-bag.png",
+          "price": "1500"
+        },
+        {
+          "name": "Hydrascale Bag",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bags/hydrascale-bag.png",
+          "price": "1600"
+        },
+        {
+          "name": "Pantherskin Bag",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bags/pantherskin-bag.png",
+          "price": "1800"
+        },
+        {
+          "name": "Croakadile Bag",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/bags/croakadile-bag.png",
+          "price": "1400"
+        },
+        {
+          "name": "Wyrmweave Silk",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/cloths/wyrmweave-silk.png",
+          "price": "2500"
+        },
+        {
+          "name": "Cashmere",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/cloths/cashmere.png",
+          "price": "2500"
+        },
+        {
+          "name": "Damask Cloth",
+          "description": "Simple sword description.",
+          "image": "/images/weapons/cloths/damask-cloth.png",
+          "price": "2500"
+        }
+      ]
+    },
+    {
+      "name": "Shields",
+      "items": [
+        {
+          "name": "Escutcheon",
+          "description": "Simple sword description.",
+          "image": "/images/shields/escutcheon1.png",
+          "price": "350"
+        },
+        {
+          "name": "Bronze Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/bronze-shield.png",
+          "price": "500"
+        },
+        {
+          "name": "Mythril Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/mythril-shield.png",
+          "price": "700"
+        },
+        {
+          "name": "Ice Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/ice-shield.png",
+          "price": "900"
+        },
+        {
+          "name": "Platinum Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/platinum-shield.png",
+          "price": "1200"
+        },
+        {
+          "name": "Aegis Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/aegis-shield.png",
+          "price": "1600"
+        },
+        {
+          "name": "Genji Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/genji-shield.png",
+          "price": "1600"
+        },
+        {
+          "name": "Venetian Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/venetian-shield.png",
+          "price": "2000"
+        },
+        {
+          "name": "Buckler",
+          "description": "Simple sword description.",
+          "image": "/images/shields/buckler.png",
+          "price": "1500"
+        },
+        {
+          "name": "Round Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/round-shield.png",
+          "price": "1600"
+        },
+        {
+          "name": "Golden Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/golden-shield.png",
+          "price": "1800"
+        },
+        {
+          "name": "Flame Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/flame-shield.png",
+          "price": "1400"
+        },
+        {
+          "name": "Diamond Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/diamond-shield.png",
+          "price": "2500"
+        },
+        {
+          "name": "Crystal Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/crystal-shield.png",
+          "price": "2500"
+        },
+        {
+          "name": "Kaiser Shield",
+          "description": "Simple sword description.",
+          "image": "/images/shields/kaiser-shield.png",
+          "price": "2500"
+        },
+        {
+          "name": "Escutcheon",
+          "description": "Simple sword description.",
+          "image": "/images/shields/escutcheon2.png",
+          "price": "2500"
         }
       ]
     },
@@ -169,6 +875,96 @@
           "description": "Simple sword description.",
           "image": "/images/headwear/helms/leather-helm.png",
           "price": "350"
+        },
+        {
+          "name": "Thief's Cap",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/thiefs-cap.png",
+          "price": "2800"
+        },
+        {
+          "name": "Lambent Hat",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/lambent-hat.png",
+          "price": "2400"
+        },
+        {
+          "name": "Gold Hairpin",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/gold-hairpin.png",
+          "price": "2200"
+        },
+        {
+          "name": "Black Cowl",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/black-cowl.png",
+          "price": "2000"
+        },
+        {
+          "name": "Celebrant's Miter",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/celebrants-miter.png",
+          "price": "1800"
+        },
+        {
+          "name": "Headband",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/headband.png",
+          "price": "1600"
+        },
+        {
+          "name": "Green Beret",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/green-beret.png",
+          "price": "1400"
+        },
+        {
+          "name": "Wizard's Hat",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/wizards-hat.png",
+          "price": "1200"
+        },
+        {
+          "name": "Headgear",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/headgear.png",
+          "price": "900"
+        },
+        {
+          "name": "Red Hood",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/red-hood.png",
+          "price": "700"
+        },
+        {
+          "name": "Plumed Hat",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/plumed-hat.png",
+          "price": "500"
+        },
+        {
+          "name": "Leather Cap",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hats/leather-cap.png",
+          "price": "350"
+        },
+        {
+          "name": "Cachusha",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hair-adornment/cachusha.png",
+          "price": "3000"
+        },
+        {
+          "name": "Barette",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hair-adornment/barette.png",
+          "price": "3500"
+        },
+        {
+          "name": "Ribbon",
+          "description": "Simple sword description.",
+          "image": "/images/headwear/hair-adornment/ribbon.png",
+          "price": "9999"
         }
       ]
     },
@@ -258,6 +1054,335 @@
           "description": "Simple sword description.",
           "image": "/images/body-armor/armor/leather-armor.png",
           "price": "350"
+        },
+        {
+          "name": "Rubber Costume",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/rubber-costume.png",
+          "price": "3500"
+        },
+        {
+          "name": "Black Garb",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/black-garb.png",
+          "price": "3000"
+        },
+        {
+          "name": "Gaia Gear",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/gaia-gear.png",
+          "price": "2500"
+        },
+        {
+          "name": "Power Garb",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/power-garb.png",
+          "price": "2300"
+        },
+        {
+          "name": "Jujitsu Gi",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/jujitsu-gi.png",
+          "price": "2100"
+        },
+        {
+          "name": "Brigandine",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/brigandine.png",
+          "price": "2000"
+        },
+        {
+          "name": "Wizard Clothing",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/wizard-clothing.png",
+          "price": "1800"
+        },
+        {
+          "name": "Adamant Vest",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/adamant-vest.png",
+          "price": "1500"
+        },
+        {
+          "name": "Mythril Vest",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/mythril-vest.png",
+          "price": "1350"
+        },
+        {
+          "name": "Ringmail",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/ringmail.png",
+          "price": "1200"
+        },
+        {
+          "name": "Ninja Gear",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/ninja-gear.png",
+          "price": "900"
+        },
+        {
+          "name": "Leather Plate",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/leather-plate.png",
+          "price": "700"
+        },
+        {
+          "name": "Leather Clothing",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/leather-clothing.png",
+          "price": "500"
+        },
+        {
+          "name": "Clothing",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/clothing/clothing.png",
+          "price": "350"
+        },
+        {
+          "name": "Lordly Robe",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/robes/lordly-robe.png",
+          "price": "9999"
+        },
+        {
+          "name": "Luminous Robe",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/robes/luminous-robe.png",
+          "price": "1500"
+        },
+        {
+          "name": "Black Robe",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/robes/black-robe.png",
+          "price": "1350"
+        },
+        {
+          "name": "White Robe",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/robes/white-robe.png",
+          "price": "1200"
+        },
+        {
+          "name": "Chameleon Robe",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/robes/chameleon-robe.png",
+          "price": "900"
+        },
+        {
+          "name": "Wizard's Robe",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/robes/wizards-robe.png",
+          "price": "700"
+        },
+        {
+          "name": "Silken Robe",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/robes/silken-robe.png",
+          "price": "500"
+        },
+        {
+          "name": "Hempen Robe",
+          "description": "Simple sword description.",
+          "image": "/images/body-armor/robes/hempen-robe.png",
+          "price": "350"
+        }
+      ]
+    },
+    {
+      "name": "Accessories",
+      "items": [
+        {
+          "name": "Germinas Boots",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/shoes/germinas-boots.png",
+          "price": "350"
+        },
+        {
+          "name": "Red Shoes",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/shoes/red-shoes.png",
+          "price": "500"
+        },
+        {
+          "name": "Battle Boots",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/shoes/battle-boots.png",
+          "price": "700"
+        },
+        {
+          "name": "Spike Boots",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/shoes/spike-boots.png",
+          "price": "900"
+        },
+        {
+          "name": "Hermes Shoes",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/shoes/hermes-shoes.png",
+          "price": "1200"
+        },
+        {
+          "name": "Winged Boots",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/shoes/winged-boots.png",
+          "price": "1600"
+        },
+        {
+          "name": "Rubber Boots",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/shoes/rubber-boots.png",
+          "price": "1600"
+        },
+        {
+          "name": "Genji Glove",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armguards/genji-glove.png",
+          "price": "900"
+        },
+        {
+          "name": "Bracer",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armguards/bracer.png",
+          "price": "1200"
+        },
+        {
+          "name": "Power Gauntlet",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armguards/power-gauntlet.png",
+          "price": "1600"
+        },
+        {
+          "name": "Magepower Glove",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armguards/magepower-glove.png",
+          "price": "1600"
+        },
+        {
+          "name": "Angel Ring",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/rings/angel-ring.png",
+          "price": "1600"
+        },
+        {
+          "name": "Reflect Ring",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/rings/reflect-ring.png",
+          "price": "900"
+        },
+        {
+          "name": "Protect Ring",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/rings/protect-ring.png",
+          "price": "1200"
+        },
+        {
+          "name": "Magic Ring",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/rings/magic-ring.png",
+          "price": "1600"
+        },
+        {
+          "name": "Cursed Ring",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/rings/cursed-ring.png",
+          "price": "1600"
+        },
+        {
+          "name": "Japa Mala",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armlets/japa-mala.png",
+          "price": "1600"
+        },
+        {
+          "name": "Nu Khai Armband",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armlets/nukhai-armband.png",
+          "price": "900"
+        },
+        {
+          "name": "Jade Armlet",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armlets/jade-armlet.png",
+          "price": "1200"
+        },
+        {
+          "name": "Guardian Bracelet",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armlets/guardian-bracelet.png",
+          "price": "1600"
+        },
+        {
+          "name": "Diamond Bracelet",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/armlets/diamond-bracelet.png",
+          "price": "1600"
+        },
+        {
+          "name": "Featherwave Cloak",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/cloaks/featherwave-cloak.png",
+          "price": "1600"
+        },
+        {
+          "name": "Invisibility Cloak",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/cloaks/invisibility-cloak.png",
+          "price": "1600"
+        },
+        {
+          "name": "Vampire Cape",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/cloaks/vampire-cape.png",
+          "price": "1600"
+        },
+        {
+          "name": "Elven Cloak",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/cloaks/elven-cloak.png",
+          "price": "900"
+        },
+        {
+          "name": "Mage's Cloak",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/cloaks/mages-cloak.png",
+          "price": "1200"
+        },
+        {
+          "name": "Leather Cloak",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/cloaks/leather-cloak.png",
+          "price": "1600"
+        },
+        {
+          "name": "Shoulder Cape",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/cloaks/shoulder-cape.png",
+          "price": "1600"
+        },
+        {
+          "name": "Chantage",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/perfumes/chantage.png",
+          "price": "900"
+        },
+        {
+          "name": "Cherche",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/perfumes/cherche.png",
+          "price": "1200"
+        },
+        {
+          "name": "Septième",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/perfumes/septieme.png",
+          "price": "1600"
+        },
+        {
+          "name": "Sortilége",
+          "description": "Simple sword description.",
+          "image": "/images/accessories/perfumes/sortilege.png",
+          "price": "1600"
         }
       ]
     },
@@ -347,6 +1472,42 @@
           "description": "Simple sword description.",
           "image": "/images/items/use/eye-drops.png",
           "price": "70"
+        },
+        {
+          "name": "Yagyu Darkrood",
+          "description": "Simple sword description.",
+          "image": "/images/items/throwing/yagyu-darkrood.png",
+          "price": "99"
+        },
+        {
+          "name": "Fuma Shuriken",
+          "description": "Simple sword description.",
+          "image": "/images/items/throwing/fuma-shuriken.png",
+          "price": "99"
+        },
+        {
+          "name": "Shuriken",
+          "description": "Simple sword description.",
+          "image": "/images/items/throwing/shuriken.png",
+          "price": "99"
+        },
+        {
+          "name": "Flameburst Bomb",
+          "description": "Simple sword description.",
+          "image": "/images/items/throwing/flameburst-bomb.png",
+          "price": "99"
+        },
+        {
+          "name": "Snowmelt Bomb",
+          "description": "Simple sword description.",
+          "image": "/images/items/throwing/snowmelt-bomb.png",
+          "price": "99"
+        },
+        {
+          "name": "Spark Bomb",
+          "description": "Simple sword description.",
+          "image": "/images/items/throwing/spark-bomb.png",
+          "price": "99"
         }
       ]
     }
