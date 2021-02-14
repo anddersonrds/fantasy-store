@@ -1,28 +1,29 @@
 import React from "react"
+import { CartProvider, CartContext } from "./CartContext"
+import { render } from "@testing-library/react"
 
 describe("CartProvider", () => {
   describe("when 'addToCart' is called", () => {
-    it.todo("adds product to products array")
-    it.todo("saves products in local storage")
-  })
+    it("adds product to products array", () => {
+      const mockChildrenFunction = jest.fn(() => null)
 
-  describe("with products", () => {
-    describe("when 'clearCart' is called", () => {
-      it.todo("returns empty array for products")
-      it.todo("removes products from local storage")
+      const cartHookReturnValue = {
+        products: [],
+        totalPrice: () => 0,
+        addToCart: () => {},
+        removeFromCart: () => {},
+        clearCart: () => {}
+      }
+
+      render(
+        <CartProvider useCartHook={() => cartHookReturnValue}>
+          <CartContext.Consumer>
+            {mockChildrenFunction}
+          </CartContext.Consumer>
+        </CartProvider>
+      )
+
+      expect(mockChildrenFunction).toHaveBeenCalledWith(cartHookReturnValue)
     })
-
-    describe("when 'removeFromCart' is called", () => {
-      it.todo("removes product from products array")
-      it.todo("removes product from local storage")
-    })
-  })
-
-  describe("with products in localStorage", () => {
-    it.todo("loads products from localStorage")
-  })
-
-  describe("with empty localStorage", () => {
-    it.todo("products is empty array")
   })
 })
