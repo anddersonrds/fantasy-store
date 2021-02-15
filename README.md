@@ -14,10 +14,9 @@
 
 ## 💡 Sobre
 
-Projeto desenvolvido durante o estudo de tests usando `jest` e `testing-library`. Quem nunca desejou reviver a emoção de se equipar com grandes itens e ir para as batalhas da famosa Guerra dos Leões. <br>
-Aqui simulamos uma loja de compra de armas, armaduras e acessórios com a temática do clássico e maravilhoso game [Final Fantasy Tactics](http://dlgames.square-enix.com/fft/en/).<br>
-Todo o processo de comprar todo itens e rotas tem sua cobertura de teste. <br>
-O foco desse projeto é o testes, logo usei um json-server para a criação das rotas e requisição dos métodos.
+Projeto desenvolvido durante o estudo de tests usando `jest` e `testing-library`. Quem nunca desejou reviver a emoção de se equipar com grandes itens e marchar para as épicas batalhas da famosa Guerra dos Leões, não é mesmo? <br>
+
+Nesse projeto simulamos uma loja de itena, possiblitando compra de espadas, escudos, armaduras e acessórios com a temática do clássico e maravilhoso game [Final Fantasy Tactics](http://dlgames.square-enix.com/fft/en/).<br>
 
 ---
 
@@ -112,4 +111,4 @@ As ferramentas usadas no desenvolvimento do projeto.
 
 ## 📝 Licença
 
-#Desenvolvido por [@anddersonrds](https://github.com/anddersonrds)
+### Desenvolvido por [@anddersonrds](https://github.com/anddersonrds)
