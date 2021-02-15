@@ -1,44 +1,115 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Fantasy Store</p>
+<h4 align="center">Versão 1.0</h4>
 
-## Available Scripts
+<p align="center">
+ <a href="#-sobre">Sobre</a> •
+ <a href="#-layout">Layout</a> •
+ <a href="#-executando-a-aplicação">Como executar</a> •
+ <a href="#tecnologias">Tecnologias</a> •
+ <a href="#como-contribuir">Como contribuir</a> •
+ <a href="#-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 💡 Sobre
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Projeto desenvolvido durante o estudo de tests usando `jest` e `testing-library`. Quem nunca desejou reviver a emoção de se equipar com grandes itens e ir para as batalhas da famosa Guerra dos Leões. <br>
+Aqui simulamos uma loja de compra de armas, armaduras e acessórios com a temática do clássico e maravilhoso game [Final Fantasy Tactics](http://dlgames.square-enix.com/fft/en/).<br>
+Todo o processo de comprar todo itens e rotas tem sua cobertura de teste. <br>
+O foco desse projeto é o testes, logo usei um json-server para a criação das rotas e requisição dos métodos.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## 🎨 Layout
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### Web
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img alt="TMDB Movies" title="TMDB Movies" src="./.github/1-weapons.png">
+  <img alt="TMDB Movies" title="TMDB Movies" src="./.github/2-helms.png">
+  <img alt="TMDB Movies" title="TMDB Movies" src="./.github/3-items.png">
+  <img alt="TMDB Movies" title="TMDB Movies" src="./.github/4-cart-items.png">
+  <img alt="TMDB Movies" title="TMDB Movies" src="./.github/5-checkout.png">
+  <img alt="TMDB Movies" title="TMDB Movies" src="./.github/6-order.png">
+</p>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Executando a aplicação
 
-### `yarn eject`
+### Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+É necessário ter instalado na sua máquina para execução desse projeto:
+- NodeJS
+- Gerenciador de pacotes (Npm ou Yarn)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Clonando o Repositório
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+$ git clone git@github.com:anddersonrds/fantasy-store.git
 
-## Learn More
+# entre na pasta do projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+$ cd fantasy-store
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+### 💻 Rodando a aplicação
+
+Instale as dependências
+
+```bash
+
+$ yarn
+
+# ou, caso use npm
+
+$ npm install
+
+```
+
+Rode a aplicação
+
+```bash
+
+$ yarn dev
+
+# esse comando executa o server e a loja
+
+# ou, caso use npm
+
+$ npm dev
+
+```
+
+---
+
+<h2 id="tecnologias"> 🛠️ Tecnologias </h2>
+
+As ferramentas usadas no desenvolvimento do projeto.
+
+#### SPA React:
+- Typescript
+- ReactJS
+- React Router Dom
+- Jest
+- Testing Library
+- Context Api
+- Json Server
+
+---
+
+<h2 id="como-contribuir"> ⚙️ Como contribuir </h2>
+
+- Faça um fork desse repositório;
+- Crie uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+---
+
+## 📝 Licença
+
+#Desenvolvido por [@anddersonrds](https://github.com/anddersonrds)

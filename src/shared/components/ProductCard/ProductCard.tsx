@@ -18,9 +18,9 @@ export const ProductCard = ({ datum, useCartHook = useCartContext }: ProductCard
       <img
         style={{ imageRendering: "pixelated" }}
         src={datum.image}
+        alt="fantasy"
         width="64px"
         height="64px"
-        alt="goblin"
       />
 
       <p>{datum.name}</p>

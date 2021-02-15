@@ -88,8 +88,10 @@ header.sticky .nav-brand p {
 
 .nes-badge.is-icon span.is-error:first-child {
   left: auto;
-  right: -2.7em;
+  right: -0.7em;
   top: 0;
+  background-color: #ce372b;
+  box-shadow: 0 0.5em #ce372b, 0 -0.5em #ce372b, 0.5em 0 #ce372b, -0.5em 0 #ce372b;
 }
 
 .cart-items {
